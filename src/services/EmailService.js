@@ -1,6 +1,6 @@
 const retryWithBackoff = require('../utils/retry');
 const RateLimiter = require('../utils/rateLimiter');
-const statusStore = require('../statusStore ')
+const statusStore = require('../statusStore')
 
 class EmailService {
   constructor(providers, maxEmailsPerMinute = 5) {

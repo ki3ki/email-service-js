@@ -4,7 +4,7 @@
   "description": "Resilient email sending service with retry, fallback, and rate limiting",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node server.js",
     "test": "jest"
   },
   "author": "Keerthi P Kumar",
@@ -13,8 +13,6 @@
     "jest": "^30.0.4"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.21.2"
   }
 }
-
-
